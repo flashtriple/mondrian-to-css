@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="@flashtriple">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box
+        }
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%
+        }
+        .art-grid {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 12% 12.3% 13.2% 24.8% 15.9% 15.4% 6.4%;
+            grid-template-rows: 12.7% 25% 25% 12.9% 12% 6.9% auto;
+            background-color: #000700
+        }
+        .art-grid div {
+            border: #000 solid .6rem
+        }
+        button {
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: transparent;
+            border: none
+        }
+        .g {
+            background-color: lightgray
+        }
+        .w {
+            background-color: white
+        }
+        .y {
+            background-color: yellow
+        }
+        .r {
+            background-color: red
+        }
+        .b {
+            background-color: blue
+        }
+        .a1 {
+            grid-area: 1 / 1 / 2 / 3
+        }
+        .a2 {
+            grid-area: 1 / 3 / 2 / 5
+        }
+        .a3 {
+            grid-area: 1 / 5 / 2 / 7
+        }
+        .a4 {
+            grid-area: 1 / 7 / 5 / 8
+        }
+        .a6 {
+            grid-area: 2 / 2 / 4 / 5
+        }
+        .a7 {
+            grid-area: 2 / 5 / 3 / 7
+        }
+        .a8 {
+            grid-area: 3 / 1 / 5 / 2
+        }
+        .a14 {
+            grid-area: 4 / 5 / 5 / 7
+        }
+        .a15 {
+            grid-area: 5 / 1 / 8 / 2
+        }
+        .a19 {
+            grid-area: 5 / 5 / 7 / 7
+        }
+        .a20 {
+            grid-area: 5 / 7 / 8 / 8
+        }
+        .a21 {
+            grid-area: 6 / 2 / 8 / 4
+        }
+        .a23 {
+            grid-area: 7 / 4 / 8 / 7
+        }
+    </style>
+    <title>Mondrian "Compositie in rood, geel en blauw" to CSS grid</title>
+</head>
+<body>
+    <div class="art-grid">
+        <div class="a1 g"></div>
+        <div class="a2 w"></div>
+        <div class="a3 y"></div>
+        <div class="a4 g"></div>
+        <div class="a5 w"></div>
+        <div class="a6 r"></div>
+        <div class="a7 y"></div>
+        <div class="a8 g"></div>
+        <div class="a9 w"></div>
+        <div class="a10 w"></div>
+        <div class="a11"></div>
+        <div class="a12"></div>
+        <div class="a13 g"></div>
+        <div class="a14 w"></div>
+        <div class="a15 y"></div>
+        <div class="a16"></div>
+        <div class="a17"></div>
+        <div class="a18 g"></div>
+        <div class="a19 b"></div>
+        <div class="a20 r"></div>
+        <div class="a21 w"></div>
+        <div class="a22"></div>
+        <div class="a23 w"></div>
+    </div>
+</body>
+</html>
