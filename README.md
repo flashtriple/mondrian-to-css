@@ -1,5 +1,6 @@
 @flashtriple
-Interested in dev, science, music & art.
+Fullstack developer interested in 
+dev, science, music & art.
 Im taking expertise in frontend 
 development as freelance service 
 for a company.
