@@ -1,5 +1,5 @@
 @flashtriple
-Interested in dev, science & art.
+Interested in dev, science, music & art.
 Im taking expertise in frontend 
 development as freelance service 
 for a company.
